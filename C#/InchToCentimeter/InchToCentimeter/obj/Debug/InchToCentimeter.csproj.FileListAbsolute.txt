@@ -1,0 +1,10 @@
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\bin\Debug\InchToCentimeter.exe.config
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\bin\Debug\InchToCentimeter.exe
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\bin\Debug\InchToCentimeter.pdb
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.csprojAssemblyReference.cache
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.Form1.resources
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.Properties.Resources.resources
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.csproj.GenerateResource.cache
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.csproj.CoreCompileInputs.cache
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.exe
+C:\Users\DSM2018\source\repos\InchToCentimeter\InchToCentimeter\obj\Debug\InchToCentimeter.pdb
