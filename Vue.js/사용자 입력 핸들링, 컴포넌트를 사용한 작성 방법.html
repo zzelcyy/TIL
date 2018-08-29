@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>사용자 입력 핸들링, 컴포넌트를 사용한 작성 방법</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app-5">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">메시지 뒤집기</button>
+    </div>
+    <div id="app-6">
+        <p>{{ message }}</p>
+        <input v-model="message">
+    </div>
+    <div>
+        <ol>
+            <todo-item
+             v-for="item in groceryList"
+             v-bind:todo="item"
+             v-bind:key="item.id">
+            </todo-item>
+        </ol>
+    </div>
+
+    <script>
+        var app5 = new Vue ({
+            el: '#app-5',
+            data: {
+                message: '안녕하세요! Vue.js!'
+            },
+            methods: {
+                reverseMessage: function () {
+                    this.message = this.message.split('').reverse().join('')
+                }
+            }
+        })
+        var app6 = new Vue ({
+            el: '#app-6',
+            data: {
+                message: '안녕하세요 Vue!'
+            }
+        })
+        
+        Vue.component('todo-item', {
+        props: ['todo'],
+        template: '<li>{{ todo.text }}</li>'
+        })
+
+        var app7 = new Vue({
+        el: '#app-7',
+        data: {
+            groceryList: [
+            { id: 0, text: 'Vegetables' },
+            { id: 1, text: 'Cheese' },
+            { id: 2, text: 'Whatever else humans are supposed to eat' }
+            ]
+        }
+        })
+    </script>
+</body>
+</html>
