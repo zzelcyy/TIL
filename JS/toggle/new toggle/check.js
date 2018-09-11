@@ -1,22 +1,22 @@
-let channel = {
+let chs = {
     ch1 = 0,
     ch2 = 0
 };
 
 function TheBoyz() {
-    img1 = './theboyz1.jpg';
-    img2 = './theboyz2.jpg';
-    target = document.getElementById("theBoyz");
-    channel = channel.ch1;
+    let img1 = './theboyz1.jpg';
+    let img2 = './theboyz2.jpg';
+    let target = document.getElementById("theBoyz");
+    let channel = chs.ch1;
 
     toggle(img1, img2, target, channel);
 }
 
 function Hwall() {
-    img1 = './hwall1.jpg';
-    img2 = './hwall2.jpg';
-    target = document.getElementById("hwall");
-    channel = channel.ch2;
+    let img1 = './hwall1.jpg';
+    let img2 = './hwall2.jpg';
+    let target = document.getElementById("hwall");
+    let channel = chs.ch2;
 
     toggle(img1, img2, target, channel);
 }
