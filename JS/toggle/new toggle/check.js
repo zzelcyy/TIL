@@ -8,7 +8,7 @@ function TheBoyz() {
     let img2 = './theboyz2.jpg';
     let target = document.getElementById("theBoyz");
     let channel = chs.ch1;
-
+    console.log('tbz onclicked');
     toggle(img1, img2, target, channel);
 }
 
@@ -17,7 +17,7 @@ function Hwall() {
     let img2 = './hwall2.jpg';
     let target = document.getElementById("hwall");
     let channel = chs.ch2;
-
+    console.log('hwall onclicked');
     toggle(img1, img2, target, channel);
 }
 
